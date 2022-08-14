@@ -1,8 +1,11 @@
+// Program to calculate area and parameter of a rectangle in C
+
+
 #include <stdio.h>
 
 int main(){
     float lenght=0,breadth=0,area=0,parameter=0;
-    printf("To find the area and parameter of rectangle, provide the following details:\n");
+    printf("To find the area and parameter of a rectangle, provide the following details:\n");
     printf("Lenght:\n");
     scanf("%f",&lenght);
     printf("Breadth:\n");

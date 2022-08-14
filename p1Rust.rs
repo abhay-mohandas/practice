@@ -1,7 +1,10 @@
+// Program to calculate area and parameter of a rectangle in Rust
+
+
 use std::io::stdin;
 
 fn main(){
-    println!("To find the area and parameter of rectangle, provide the following details:");
+    println!("To find the area and parameter of a rectangle, provide the following details:");
     println!("Lenght:");
     let mut input = String::new();
     stdin().read_line(&mut input).expect("Failed to read input!\n");
